@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Imposto de renda</title>
+	<meta charset="utf-8" lang="pt-br">
+	<link href="css/av22.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="leao">
+	<fieldset class="visi" id="começo">
+		<legend>IMPOSTO DE RENDA</legend>
+		<p>Informe o valor de seu salário bruto mensal:</p>
+		<p><input type="number" id="valor" placeholder="Valor"></p>
+		<button onclick="quant()">Ir para o Leão</button>
+	</fieldset>
+	<fieldset class="inv" id="fim">
+		<legend>LEÃO</legend>
+		<p>Veja a seguir, quanto irá pagar por mês para o governo, no formato de imposto, com base no seu salário:</p>
+		<p id="result"></p>
+		<button onclick="back()">Fazer outra verificação</button>
+	</fieldset>
+</div>
+	<script type="text/javascript" src="app.js">
+	</script>
+</body>
+</html>
